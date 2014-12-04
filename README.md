@@ -7,7 +7,7 @@ If you are using an assertion library with cucumberJS, you may have encountered 
 
 
 sample usage: 
-```
+```js
    this.Then(/^I will be taken to the hompage$/, function (callback) {
      browser.getLocationAbsUrl().then(execute(function(url) {
      
